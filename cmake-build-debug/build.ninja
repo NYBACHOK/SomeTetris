@@ -67,6 +67,12 @@ build CMakeFiles/src.dir/Models/Imp/Matrix.cpp.obj: CXX_COMPILER__src_Debug C$:/
   OBJECT_DIR = CMakeFiles\src.dir
   OBJECT_FILE_DIR = CMakeFiles\src.dir\Models\Imp
 
+build CMakeFiles/src.dir/Models/Imp/GameManager.cpp.obj: CXX_COMPILER__src_Debug C$:/dotnet/Cpp/SomeTetris/src/Models/Imp/GameManager.cpp || cmake_object_order_depends_target_src
+  DEP_FILE = CMakeFiles\src.dir\Models\Imp\GameManager.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\src.dir
+  OBJECT_FILE_DIR = CMakeFiles\src.dir\Models\Imp
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target src
@@ -75,7 +81,7 @@ build CMakeFiles/src.dir/Models/Imp/Matrix.cpp.obj: CXX_COMPILER__src_Debug C$:/
 #############################################
 # Link the executable src.exe
 
-build src.exe: CXX_EXECUTABLE_LINKER__src_Debug CMakeFiles/src.dir/main.cpp.obj CMakeFiles/src.dir/Models/Imp/Shape.cpp.obj CMakeFiles/src.dir/Models/Imp/Matrix.cpp.obj
+build src.exe: CXX_EXECUTABLE_LINKER__src_Debug CMakeFiles/src.dir/main.cpp.obj CMakeFiles/src.dir/Models/Imp/Shape.cpp.obj CMakeFiles/src.dir/Models/Imp/Matrix.cpp.obj CMakeFiles/src.dir/Models/Imp/GameManager.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\src.dir

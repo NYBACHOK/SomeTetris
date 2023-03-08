@@ -20,13 +20,24 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd06f721-00a6-4493-901b-9dc65a9fbc9e" name="Changes" comment="Remove unneeded inheritance">
+    <list default="true" id="dd06f721-00a6-4493-901b-9dc65a9fbc9e" name="Changes" comment="add colision detection">
+      <change afterPath="$PROJECT_DIR$/Models/GameManager.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Models/Imp/GameManager.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Models/Imp/Shape.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Models/Imp/Shape.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/Imp/Matrix.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Models/Imp/Matrix.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/Matrix.h" beforeDir="false" afterPath="$PROJECT_DIR$/Models/Matrix.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Models/Shape.h" beforeDir="false" afterPath="$PROJECT_DIR$/Models/Shape.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cache-v2-da9d92534991e903949a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-ecc571461c80e4d75268.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2023-03-08T13-47-22-0830.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-src-Debug-23334f0c04d105ffd71a.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/build.ninja" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -106,7 +117,7 @@
       <workItem from="1677585708122" duration="3876000" />
       <workItem from="1678018993235" duration="107000" />
       <workItem from="1678182589617" duration="1095000" />
-      <workItem from="1678282825216" duration="3802000" />
+      <workItem from="1678282825216" duration="7128000" />
     </task>
     <task id="LOCAL-00001" summary="Add matrix">
       <created>1677585770180</created>
@@ -122,7 +133,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678283589386</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add colision detection">
+      <created>1678286921253</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1678286921253</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,7 +160,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add matrix" />
     <MESSAGE value="Remove unneeded inheritance" />
-    <option name="LAST_COMMIT_MESSAGE" value="Remove unneeded inheritance" />
+    <MESSAGE value="add colision detection" />
+    <option name="LAST_COMMIT_MESSAGE" value="add colision detection" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>

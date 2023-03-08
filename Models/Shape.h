@@ -68,7 +68,7 @@ public:
     };
 
     bool move(Matrix& matrix);
-    bool move_horizontal(Matrix& matrix, bool isRight = true)
+    bool move_horizontal(Matrix& matrix, bool isRight = true);
 };
 
 #endif //SRC_SHAPE_H
