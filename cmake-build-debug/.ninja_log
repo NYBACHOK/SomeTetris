@@ -7,3 +7,10 @@
 15	330	6998859343010594	CMakeFiles/src.dir/Managers/Matrix_manager.cpp.obj	975f7df53d67f28c
 6	712	6998859346830526	CMakeFiles/src.dir/Models/Imp/Matrix.cpp.obj	fbd661c4db778834
 1	453	6999864426244441	build.ninja	150142c9c0b145ca
+5	195	6999867922539243	CMakeFiles/src.dir/main.cpp.obj	209be49d5a8c0e1b
+12	399	6999867924589201	CMakeFiles/src.dir/Models/Imp/Matrix.cpp.obj	fbd661c4db778834
+2	214	6999868217739357	CMakeFiles/src.dir/Models/Imp/Shape.cpp.obj	addcf9a99f019dd1
+215	521	6999868220755386	src.exe	e314bb753efcd41d
+1	92	6999877775218322	CMakeFiles/src.dir/main.cpp.obj	209be49d5a8c0e1b
+8	302	6999877777323538	CMakeFiles/src.dir/Models/Imp/Shape.cpp.obj	addcf9a99f019dd1
+302	449	6999877778753804	src.exe	e314bb753efcd41d
