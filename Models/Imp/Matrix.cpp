@@ -20,3 +20,16 @@ void Matrix::delete_line(const unsigned int line) {
 bool Matrix::get_point(const int x,const int y) {
     return this->matrix[x][y];
 }
+
+void Matrix::set_point(int x, int y, bool value) {
+    this->matrix[x][y] = value;
+}
+
+int Matrix::get_full_line() {
+    for (int i = 0; i < _height; ++i) {
+        bool result = this->matrix[i][0] && this->matrix[i][1] && this->matrix[i][2] && this->matrix[i][3] && this->matrix[i][4];
+        if(result)
+            return i;
+    }
+    return -1;
+}

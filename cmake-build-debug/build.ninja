@@ -55,20 +55,14 @@ build CMakeFiles/src.dir/main.cpp.obj: CXX_COMPILER__src_Debug C$:/dotnet/Cpp/So
   OBJECT_DIR = CMakeFiles\src.dir
   OBJECT_FILE_DIR = CMakeFiles\src.dir
 
-build CMakeFiles/src.dir/Models/Imp/Matrix.cpp.obj: CXX_COMPILER__src_Debug C$:/dotnet/Cpp/SomeTetris/src/Models/Imp/Matrix.cpp || cmake_object_order_depends_target_src
-  DEP_FILE = CMakeFiles\src.dir\Models\Imp\Matrix.cpp.obj.d
+build CMakeFiles/src.dir/Models/Imp/Shape.cpp.obj: CXX_COMPILER__src_Debug C$:/dotnet/Cpp/SomeTetris/src/Models/Imp/Shape.cpp || cmake_object_order_depends_target_src
+  DEP_FILE = CMakeFiles\src.dir\Models\Imp\Shape.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\src.dir
   OBJECT_FILE_DIR = CMakeFiles\src.dir\Models\Imp
 
-build CMakeFiles/src.dir/Managers/Matrix_manager.cpp.obj: CXX_COMPILER__src_Debug C$:/dotnet/Cpp/SomeTetris/src/Managers/Matrix_manager.cpp || cmake_object_order_depends_target_src
-  DEP_FILE = CMakeFiles\src.dir\Managers\Matrix_manager.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\src.dir
-  OBJECT_FILE_DIR = CMakeFiles\src.dir\Managers
-
-build CMakeFiles/src.dir/Models/Imp/Cube.cpp.obj: CXX_COMPILER__src_Debug C$:/dotnet/Cpp/SomeTetris/src/Models/Imp/Cube.cpp || cmake_object_order_depends_target_src
-  DEP_FILE = CMakeFiles\src.dir\Models\Imp\Cube.cpp.obj.d
+build CMakeFiles/src.dir/Models/Imp/Matrix.cpp.obj: CXX_COMPILER__src_Debug C$:/dotnet/Cpp/SomeTetris/src/Models/Imp/Matrix.cpp || cmake_object_order_depends_target_src
+  DEP_FILE = CMakeFiles\src.dir\Models\Imp\Matrix.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\src.dir
   OBJECT_FILE_DIR = CMakeFiles\src.dir\Models\Imp
@@ -81,7 +75,7 @@ build CMakeFiles/src.dir/Models/Imp/Cube.cpp.obj: CXX_COMPILER__src_Debug C$:/do
 #############################################
 # Link the executable src.exe
 
-build src.exe: CXX_EXECUTABLE_LINKER__src_Debug CMakeFiles/src.dir/main.cpp.obj CMakeFiles/src.dir/Models/Imp/Matrix.cpp.obj CMakeFiles/src.dir/Managers/Matrix_manager.cpp.obj CMakeFiles/src.dir/Models/Imp/Cube.cpp.obj
+build src.exe: CXX_EXECUTABLE_LINKER__src_Debug CMakeFiles/src.dir/main.cpp.obj CMakeFiles/src.dir/Models/Imp/Shape.cpp.obj CMakeFiles/src.dir/Models/Imp/Matrix.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\src.dir
