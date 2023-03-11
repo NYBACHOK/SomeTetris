@@ -14,7 +14,7 @@ public:
     Matrix() = default;
     void delete_line(unsigned int line);
     int get_full_line();
-    bool get_point(int x, int y);
+    bool get_point(int x, int y) const;
     void set_point(int x, int y, bool value = true);
 private:
     bool matrix[height][width] { };

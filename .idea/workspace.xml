@@ -20,24 +20,36 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd06f721-00a6-4493-901b-9dc65a9fbc9e" name="Changes" comment="add colision detection">
-      <change afterPath="$PROJECT_DIR$/Models/GameManager.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Models/Imp/GameManager.cpp" afterDir="false" />
+    <list default="true" id="dd06f721-00a6-4493-901b-9dc65a9fbc9e" name="Changes" comment="add drawing thread">
+      <change afterPath="$PROJECT_DIR$/out/build/x64-Debug/.cmake/api/v1/query/client-MicrosoftVS/query.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/build/x64-Debug/.cmake/api/v1/reply/cache-v2-d599124e214a7fb88261.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/build/x64-Debug/.cmake/api/v1/reply/cmakeFiles-v1-452ab7c53ffa9d88c996.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/build/x64-Debug/.cmake/api/v1/reply/codemodel-v2-a78c56f2810f99e1e593.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/build/x64-Debug/.cmake/api/v1/reply/directory-.-Debug-d0094a50bb2071803777.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/build/x64-Debug/.cmake/api/v1/reply/index-2023-03-11T16-21-41-0208.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/build/x64-Debug/.cmake/api/v1/reply/target-src-Debug-8249c6659a6367556a59.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/build/x64-Debug/.cmake/api/v1/reply/toolchains-v1-5dcbfc9495e9f8f6e427.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/build/x64-Debug/.ninja_deps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/build/x64-Debug/.ninja_log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/build/x64-Debug/VSInheritEnvironments.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/build/x64-Debug/build.ninja" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/build/x64-Debug/src.ilk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/build/x64-Debug/src.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Managers/Matrix_manager.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Managers/Matrix_manager.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/GameManager.h" beforeDir="false" afterPath="$PROJECT_DIR$/Models/GameManager.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/Imp/GameManager.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Models/Imp/GameManager.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Models/Imp/Matrix.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Models/Imp/Matrix.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/Imp/Shape.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Models/Imp/Shape.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Models/Matrix.h" beforeDir="false" afterPath="$PROJECT_DIR$/Models/Matrix.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Models/Shape.h" beforeDir="false" afterPath="$PROJECT_DIR$/Models/Shape.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cache-v2-da9d92534991e903949a.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-ecc571461c80e4d75268.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2023-03-08T13-47-22-0830.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-src-Debug-23334f0c04d105ffd71a.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/build.ninja" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,6 +82,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -83,7 +96,7 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "preferences.keymap",
+    "settings.editor.selected.configurable": "configurable.group.build",
     "structure.view.defaults.are.configured": "true",
     "vue.rearranger.settings.migration": "true"
   }
@@ -117,7 +130,11 @@
       <workItem from="1677585708122" duration="3876000" />
       <workItem from="1678018993235" duration="107000" />
       <workItem from="1678182589617" duration="1095000" />
-      <workItem from="1678282825216" duration="7128000" />
+      <workItem from="1678282825216" duration="7559000" />
+      <workItem from="1678296740957" duration="178000" />
+      <workItem from="1678385738515" duration="2310000" />
+      <workItem from="1678550333731" duration="576000" />
+      <workItem from="1678551443594" duration="5733000" />
     </task>
     <task id="LOCAL-00001" summary="Add matrix">
       <created>1677585770180</created>
@@ -140,7 +157,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678286921253</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add drawing thread">
+      <created>1678290284258</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1678290284258</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,15 +182,17 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Add matrix" />
     <MESSAGE value="Remove unneeded inheritance" />
     <MESSAGE value="add colision detection" />
-    <option name="LAST_COMMIT_MESSAGE" value="add colision detection" />
+    <MESSAGE value="add drawing thread" />
+    <option name="LAST_COMMIT_MESSAGE" value="add drawing thread" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
       <configuration name="CMakeRunConfiguration">
-        <watch expression="matrix.matrix[9]" />
+        <watch expression="matrix_with_shape.matrix" />
       </configuration>
     </watches-manager>
   </component>

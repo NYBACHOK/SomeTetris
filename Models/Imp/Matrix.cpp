@@ -17,12 +17,12 @@ void Matrix::delete_line(const unsigned int line) {
     }
 }
 
-bool Matrix::get_point(const int x,const int y) {
-    return this->matrix[x][y];
+bool Matrix::get_point(const int x,const int y) const {
+    return this->matrix[y][x];
 }
 
 void Matrix::set_point(int x, int y, bool value) {
-    this->matrix[x][y] = value;
+    this->matrix[y][x] = value;
 }
 
 int Matrix::get_full_line() {

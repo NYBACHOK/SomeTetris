@@ -1,0 +1,18 @@
+# ninja log v5
+16	383	7002549134115480	CMakeFiles/src.dir/Models/Imp/Shape.cpp.obj	d8440e51eacbf2f7
+24	407	7002549134365422	CMakeFiles/src.dir/Models/Imp/Matrix.cpp.obj	670693d61ba100dc
+7	905	7002549139340811	CMakeFiles/src.dir/main.cpp.obj	f6f2127b31720047
+33	2010	7002549150400759	CMakeFiles/src.dir/Models/Imp/GameManager.cpp.obj	fdbce8cd5009bf57
+2011	2726	7002549157331424	src.exe	a8c13a857d043cab
+5	942	7002550877203998	CMakeFiles/src.dir/main.cpp.obj	f6f2127b31720047
+13	949	7002550877283943	CMakeFiles/src.dir/Models/Imp/GameManager.cpp.obj	fdbce8cd5009bf57
+949	1218	7002550879523893	src.exe	a8c13a857d043cab
+18	706	7002583536572449	CMakeFiles/src.dir/Models/Imp/Shape.cpp.obj	d8440e51eacbf2f7
+25	710	7002583536622458	CMakeFiles/src.dir/Models/Imp/Matrix.cpp.obj	670693d61ba100dc
+11	1109	7002583540622488	CMakeFiles/src.dir/main.cpp.obj	f6f2127b31720047
+32	1377	7002583543292421	CMakeFiles/src.dir/Models/Imp/GameManager.cpp.obj	fdbce8cd5009bf57
+1378	1733	7002583546152407	src.exe	a8c13a857d043cab
+11	606	7002594023050408	CMakeFiles/src.dir/Models/Imp/Shape.cpp.obj	d8440e51eacbf2f7
+18	626	7002594023250402	CMakeFiles/src.dir/Models/Imp/Matrix.cpp.obj	670693d61ba100dc
+25	1281	7002594029786149	CMakeFiles/src.dir/Models/Imp/GameManager.cpp.obj	fdbce8cd5009bf57
+1282	1547	7002594031941346	src.exe	a8c13a857d043cab

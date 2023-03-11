@@ -6,20 +6,20 @@
 void Shape::move_coordinates(Direction direction) {
     switch (direction) {
         case Direction::Down:
-            this->_point.y++;
+            this->_point.y+=1;
             break;
         case Direction::Left:
-            this->_point.x--;
+            this->_point.x-=1;
             break;
         case Direction::Right:
-            this->_point.x++;
+            this->_point.x+=1;
             break;
         default:
             static_assert("Impossible direction to movement");
     }
 }
 
-bool Shape::check_space(Matrix& matrix) {
+bool Shape::check_space(const Matrix& matrix) {
     for(Point p: this->_placement)
         if(matrix.get_point(p.x, p.y))
             return false;
@@ -27,14 +27,16 @@ bool Shape::check_space(Matrix& matrix) {
     return true;
 }
 
-Matrix Shape::add_to_matrix(Matrix& matrix) {
+Matrix Shape::add_to_matrix(const Matrix& matrix) {
+    Matrix mtr = (matrix);
+
     if(!check_space(matrix))
         throw std::exception{};
 
     for(auto point : this->_placement)
-        matrix.set_point(point.x, point.y);
+        mtr.set_point(_point.x + point.x,_point.y + point.y, true);
 
-    return matrix;
+    return mtr;
 }
 
 bool Shape::check_collision(Direction direction, Matrix &matrix) {
